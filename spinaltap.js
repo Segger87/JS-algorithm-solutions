@@ -7,4 +7,4 @@ function spinalCase(str) {
   return addSpace.replace(/( )|(_)/gi, "-").toLowerCase();
 }
 
-spinalCase("TheAndy_Griffith_Show");
+spinalCase("The_Andy_Griffith_Show");
